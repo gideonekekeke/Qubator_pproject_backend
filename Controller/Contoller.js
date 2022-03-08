@@ -43,7 +43,6 @@ const ViewProduct = async (req, res) => {
 };
 
 // writing the function that helps to search for products or items by category or by name
-
 const SearchProducts = async (req, res) => {
 	try {
 		const searchword = req.query.search
